@@ -48,8 +48,8 @@ img {
     border-style: solid;
     border-width: 20px;
     align-content: center;
-    border-radius: 50px;
-    box-shadow: inset;
+    /* border-radius: 50px; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 a {

@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    color: #a982ff;
+    font-family: Righteous;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: Oswald;
+    color: black;
+}
+
+p {
+    font-family: Roboto;
+    border: 5px solid white;
+    background-color: white;
+    max-width: 500px;
+    font-size: 20px;
+    text-align: justify;
+    text-overflow: clip;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    word-spacing: normal;
+}
+
+html {
+    background-image:linear-gradient(to right, red , orange , gold , lime , lightblue , darkviolet);
+    align-items: center;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: black;
+    align-content: center;
+    border-radius: 50px;
+}
+
+a {
+    font-size: 50px;
+    color: lightgrey;
+    font-family: Oswald;
+    font-style: normal;
+    border-style: solid;
+    border-color: black;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}

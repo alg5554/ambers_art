@@ -6,7 +6,7 @@ h1 {
     position: relative;
     color: #a982ff;
     font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: serif;
     font-weight: bold;
 }
 
@@ -31,7 +31,14 @@ p {
 }
 
 html {
-    background-image:linear-gradient(to right, red , orange , gold , lime , lightblue , darkviolet);
+    background-image: linear-gradient(
+        to right, rgb(255, 124, 124) , 
+        rgb(255, 171, 103) , 
+        rgb(255, 233, 107) , 
+        rgb(151, 255, 151) , 
+        rgb(124, 222, 255) , 
+        rgb(199, 142, 255)
+        );
     align-items: center;
 }
 

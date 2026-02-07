@@ -1,34 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
 body {
     text-align: center;
 }
 
 h1 {
     position: relative;
-    color: #a982ff;
+    color: #ffffff;
     font-size: 50px;
-    font-family: serif;
-    font-weight: bold;
+    font-family: 'Playwrite New Zealand Basic';
+    /* font-weight: bold; */
 }
 
 h2 {
-    font-family: Oswald;
+    font-family: 'Playwrite New Zealand Basic';
     color: black;
+}
+
+.description {
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px;
 }
 
 p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 20px;
-    border-color: rgba(255, 255, 255, 0.75);
-    background-color: rgba(255, 255, 255, 0.75);
-    max-width: 500px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
-    text-overflow: clip;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    word-spacing: normal;
 }
 
 html {

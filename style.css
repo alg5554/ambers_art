@@ -5,8 +5,9 @@ body {
 h1 {
     position: relative;
     color: #a982ff;
-    font-family: Righteous;
     font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -15,7 +16,7 @@ h2 {
 }
 
 p {
-    font-family: Roboto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 5px solid white;
     background-color: white;
     max-width: 500px;

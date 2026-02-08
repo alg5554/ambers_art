@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 
 body {
     text-align: center;
@@ -8,12 +9,12 @@ h1 {
     position: relative;
     color: #ffffff;
     font-size: 50px;
-    font-family: 'Playwrite New Zealand Basic';
+    font-family: 'Indie Flower';
     /* font-weight: bold; */
 }
 
 h2 {
-    font-family: 'Playwrite New Zealand Basic';
+    font-family: 'Quicksand';
     color: black;
 }
 
@@ -22,16 +23,19 @@ h2 {
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.75);
     border-color: rgba(255, 255, 255, 0.75);
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     max-width: 750px;
 }
 
 p {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Quicksand';
     font-size: 16px;
     text-align: justify;
-    position: relative;
+    margin: 12px;
+    word-spacing: 0.5px;
 }
 
 html {
@@ -47,21 +51,19 @@ html {
 }
 
 img {
-    height: 500px;
-    width: 500px;
     border-radius: 25px;
     align-content: center;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+    width: 55%;
 }
 
 a {
-    font-size: 50px;
-    color: lightgrey;
-    font-family: Oswald;
-    font-style: normal;
-    border-style: solid;
-    border-color: black;
-    background-color: black;
-    border-radius: 20px;
-    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-family: 'Quicksand';
+}
+
+button {
+    background-color: white;
+    border-radius: 10px;
 }
